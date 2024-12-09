@@ -176,6 +176,8 @@ git reflog --oneline
 git branch 分支名
 # 切换分支命令
 git checkout 分支名
+# 创建同时切换
+git checkout -b 分支名
 ```
 
 ```bash
