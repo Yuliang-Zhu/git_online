@@ -241,6 +241,9 @@ git branch -d 分支名（login-bug）
 # 本地仓库添加远程仓库
 git remote add 远程仓库别名（自定义） 远程仓库地址
 
+# 远程仓库信息
+git remote -v
+
 # 本地仓库版本推送到远程仓库
 git push -u 远程仓库别名 本地和远程分支名(自定义)
 ```
