@@ -156,6 +156,7 @@ git reflog --oneline
 
 - 概念：本质上是指向提交节点的可变指针，默认名字是 master
 - 注意：HEAD指针影响工作区/暂存区的代码状态
+  - 可能会有多个提交指针（master/main/content），就需要HEAD指向
 
 ![当下暂存的记录](./ajax_demo/Caption_Ajax/git当前指针的指向.png)
 
