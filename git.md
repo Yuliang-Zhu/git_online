@@ -245,7 +245,7 @@ git remote add 远程仓库别名（自定义） 远程仓库地址
 git remote -v
 
 # 本地仓库版本推送到远程仓库
-git push -u 远程仓库别名 本地和远程分支名(自定义)
+git push -u 远程仓库别名 本地:远程分支名(自定义)
 ```
 
 ```bash
